@@ -1,0 +1,245 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+  }
+body { 
+	font-family:Verdana, Geneva, sans-serif; 
+	font-size: 12px; 
+	color: #999; 
+}
+header {
+	width: 100%;
+	height: 116px;
+	background: url(../img/images/bg.png) repeat-x;
+	border-top: 1px solid #8CBAF8;
+	margin: 0 auto;
+}
+ul {
+	list-style-type: none;
+}
+.header-img {
+	margin: 0 auto;
+	background: url(../img/images/top.png) no-repeat;
+	width: 1002px;
+	height: 116px;
+}
+.header-img a.first {
+	position: absolute;
+	top: 2px;
+	left: 1000px;
+	color: #FFFFFF;
+	
+}
+.header-img a.second {
+	position: absolute;
+	top: 2px;
+	left: 1050px;
+	color: #FFFFFF;
+}
+.header-img a p {
+	display: block;
+	width: 50px;
+	height: 20px;
+	color: red;
+	font-size: 16px;
+	text-indent: -9999px;
+}
+.header-img input.text {
+	position: absolute;
+	top: 77px;
+	left: 945px;
+	width: 172px;
+	border: 1px solid #2D6AC0;
+	height: 17px; 
+}
+.header-img input.button {
+	position: absolute;
+	top: 76px;
+	left: 1122px;
+	width: 20px;
+	border: 1px solid #2D6AC0;
+	height: 20px;
+	cursor: pointer;
+	background: url(../img/images/button.png) no-repeat;
+}
+.wrapper { 
+	width: 100%; 
+	background: #F0F0F1; 
+	margin: 0 auto; 
+	border-top: 4px solid #8CBAF8;
+	}
+.center {
+	margin: 0 auto;
+}
+.center .banner-swf {
+	margin: 0 auto;
+	width: 1002px;
+}
+.center nav {
+	background: url(../img/images/02.jpg) #3572CC repeat-x;
+	height: 32px;
+	margin: -3px auto 0 auto;
+	width: 1002px;
+}
+.center nav li {
+	display: block;
+	height: 25px;
+}
+.center nav ul li {
+	float: left;
+	margin: 3px auto 0 auto;
+	line-height: 25px;
+	color: #FFFFFF;
+	font-size: 16px;
+	border-left: 1px solid #ccc;
+	width: 85px;
+	height: 25px;
+	text-align: center;
+}
+.center nav ul li.first {
+	width: 50px;
+}
+.center nav ul li a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.center nav ul li a:hover {
+	color: #0066FF;
+	background-color: #FFFFFF;
+	border-radius: 2px;
+}
+.center .nav-img {
+	background: url(../img/images/03.jpg) no-repeat;
+	margin: 4px auto;
+	width: 1002px;
+	height: 96px;
+}
+.center .nav-img ul {
+	height: 80px;
+	width: 1020px;
+	list-style-type: none;
+}
+.center .nav-img ul li {
+	float: left;
+	margin-top: 20px;
+	width: 120px;
+	height: 76px;
+	line-height: 76px;
+	text-align: center;
+	text-indent: -9999px;
+}
+.center .nav-img ul li a {
+	text-decoration: none;
+}
+section {
+	margin:0 auto ;
+	width: 1002px;
+	background: #F0F0F1;
+	position: static;
+	height: 845px;
+}
+section .left {
+	width: 496px;
+	border: 1px solid #999999;
+	margin-bottom: 10px;
+	height: 200px;
+	float: left;
+	position: static;
+}
+section h2 {
+	width: 490px;
+	margin: 4px auto ;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+	line-height: 28px;
+	height: 28px;
+	background: #2D6AC0;
+	border-radius: 3px;
+	text-indent: 1em;
+}
+section h2 span {
+	float: right;
+}
+section h2 span a {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 12px;
+}
+section .right {
+	width: 496px;
+	border: 1px solid #999999;
+	margin-bottom: 10px;
+	float: right;
+	height: 200px;
+	position: static;
+}
+section ul li {
+	text-indent: 1em;
+	border-bottom: 1px dotted #999999;
+	padding: 5px 0;
+}
+section ul li span {
+	float: right;
+	margin-right: 5px;
+}
+section ul li a {
+	color: #666666;
+	text-decoration: none;
+}
+section ul li a:hover {
+	color: red;
+}
+/*===================== 学院概况style=============================================*/
+
+
+
+.tittle {
+	background: url(../img/images/04.jpg) no-repeat;
+	width: 1002px;
+	margin: 0 auto;
+	height: 144px;
+	border: 1px solid #999999;
+}
+footer {
+	width: 1002px;
+	margin: 8px auto;
+	height: 80px;
+}
+ footer h2 {
+ 	width: 1002px;
+ 	margin: 0 auto;
+ 	height: 35px;
+ 	background: #2D6AC0;
+ 	border-radius: 2px;
+ 	margin-top: 5px;
+ 	color: #FFFFFF;
+ }
+ footer h2 form {
+ 	float: left;
+ 	line-height: 35px;
+ }
+ footer h2 span {
+ 	float: right;
+ 	height: 30px;
+ }
+ footer h2 span ul li {
+ 	float: left;
+ 	padding: 6px;
+ 	border-right: 1px solid #FFFFFF;
+ 	height: 25px;
+ 	line-height: 25px;
+ 	font-size: 14px;
+ }
+footer h2 span ul li a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+footer p {
+	margin-top: 20px;
+	text-align: center; 
+	color: #666666;
+}
